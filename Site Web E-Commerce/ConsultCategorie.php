@@ -4,33 +4,38 @@
     <title>Consultation Catégorie</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="include/style.css">
-
+    <link rel="stylesheet" type="text/css" href="include/style-footer.css">
+    <link rel="stylesheet" type="text/css" href="include/style-header.css">
+    <link rel="stylesheet" type="text/css" href="include/style-categorie.css">
 </head>
 
 <body>
 
-    <?php include("./include/header.php"); ?>
+    <?php 
+    include("./include/header.php"); 
+    ?>
 
     <?php
     include("connect.inc.php");
-    $req = "SELECT C2.nomCategorie FROM Categorie C, Categorie C2 WHERE C.idCategorie = C2.idCategoriePere AND C.nomCategorie = :pCategorie";
+    $req = "SELECT C2.nomCategorie, C2.idCategorie FROM Categorie C, Categorie C2 WHERE C.idCategorie = C2.idCategoriePere AND C.nomCategorie = :pCategorie AND C2.genreCategorie LIKE :gCategorie";
     $lesCategories = oci_parse($connect, $req);
-    oci_bind_by_name($lesCategories, ":pCategorie", $_GET['nomCateg']);
+    $category = htmlentities($_GET['nomCateg']);
+    $genre = htmlentities($_GET['genre']);
+    $genre_query = "%".$genre."%";
+    oci_bind_by_name($lesCategories, ":pCategorie", $category);
+    oci_bind_by_name($lesCategories, ":gCategorie", $genre_query);
     $result = oci_execute($lesCategories);
     if (!$result) {
         $e = oci_error($lesCategories);
         print htmlentities($e['message'] . ' pour cette requete : ' . $e['sqltext']);
     }
-    echo "<H1> Les Catégories</H1>";
+    include_once("./functions/displayCategorie.php");
+    echo "<H1> ". replace_accents($category)." : sous-catégories</H1>";
     while (($categ = oci_fetch_assoc($lesCategories)) != false) {
-        echo $categ['NOMCATEGORIE'];
-        echo "<br/>";
+        // echo $categ['NOMCATEGORIE'];
+        // echo "<br/>";
+        display_cat_sub($categ['NOMCATEGORIE'], $categ['IDCATEGORIE'], $genre);
     }
     oci_free_statement($lesCategories);
     ?>

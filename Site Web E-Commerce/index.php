@@ -4,12 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="include/style.css">
+	<link rel="stylesheet" type="text/css" href="include/style-header.css">
+    <link rel="stylesheet" type="text/css" href="include/style-footer.css">
+
 </head>
 
 <body>
-<?php include("./include/header.php"); ?>
-<div class = "ImageAccueil">
-</div>
-<?php include("./include/footer.php"); ?>
+	<div class="content">
+		<?php include_once("./include/header.php"); ?>
+		<div class = "ImageAccueil">
+		</div>
+	</div>
+	<footer>
+	<?php include_once("./include/footer.php"); ?>
+	</footer>
 </body>
 </html>
