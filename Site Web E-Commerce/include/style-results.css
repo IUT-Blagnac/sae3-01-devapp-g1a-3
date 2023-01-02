@@ -32,3 +32,11 @@
     flex-flow: row wrap;
     justify-content: flex-start;
 }
+
+@media (max-width:1000px) {
+    .productAlign {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+}

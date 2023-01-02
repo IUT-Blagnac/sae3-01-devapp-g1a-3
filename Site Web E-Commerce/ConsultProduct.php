@@ -19,10 +19,10 @@
 
     <?php
     include("connect.inc.php");
-    $req = "SELECT P.nomProduit, P.idProduit, D.prixProduit FROM Categorie C, Produit P, DetailProduit D WHERE C.nomCategorie = :pCategorie AND P.idCategorie = C.idCategorie AND D.idProduit = P.idProduit AND C.genreCategorie LIKE :gCategorie";
+    $req = "SELECT P.nomProduit, P.idProduit, D.prixProduit FROM Categorie C, Produit P, DetailProduit D WHERE C.nomCategorie = :pCategorie AND P.idCategorie = C.idCategorie AND D.idProduit = P.idProduit AND D.genreProduit LIKE :gCategorie";
     $lesProduits = oci_parse($connect, $req);
     $category = htmlentities($_GET['nomSousCateg']);
-    $genre = "%".htmlentities($_GET['genre'])."%";
+    $genre = htmlentities($_GET['genre']);
     $genre_query = "%".$genre."%";
     oci_bind_by_name($lesProduits, ":pCategorie", $category);
     oci_bind_by_name($lesProduits, ":gCategorie", $genre_query);

@@ -56,7 +56,7 @@
                         <select name="country" id="country-select" class="cadreInput">
                             <option value="France" class="cadreInput">France</option>
                             <option value="Espagne">Espagne</option>
-                            <option value="Angleterre">Angleterre</option>
+                            <option value="Angleterre">Belgique</option>
                         </select> </br></br>
                         Département : <input type = 'number' name = 'departement' class="cadreInput" min="0" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"/> </br> </br>
                         Adresse Mail : <input type = 'email' name = 'mail' class="cadreInput"/> </br></br>

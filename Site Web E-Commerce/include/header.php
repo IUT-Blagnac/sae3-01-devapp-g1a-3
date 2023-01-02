@@ -63,8 +63,8 @@
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs&genre=H" class="Header__nav__link"> 
-                            Packs
+                          <a href="ConsultProduct.php?nomSousCateg=Lots&genre=H" class="Header__nav__link"> 
+                            Lots
                           </a>
                         </li>
                         <li class=""> 
@@ -77,25 +77,25 @@
                   </div>
                 </li>
                 <li class=""> <button class="toggle__submenus" aria-expanded="false"></button>
-                  <a href="ConsultCategorie.php?nomCateg=Pyjamas&genre=H" class="Header__nav__link--hasSubmenu"> 
-                    <span>Pyjamas</span>
+                  <a href="ConsultCategorie.php?nomCateg=Lingerie%20Nuit&genre=H" class="Header__nav__link--hasSubmenu"> 
+                    <span>Lingerie Nuit</span>
                   </a>
                   <div class="Header__nav__submenu">
                     <div class="Header__nav__submenu__categories">
                       <ul>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Hauts%20de%20pyjamas&genre=H" class="Header__nav__link"> 
-                            Hauts de pyjama
+                          <a href="ConsultProduct.php?nomSousCateg=Pyjamas%20long&genre=H" class="Header__nav__link"> 
+                            Pyjamas long
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Bas%20de%20pyjamas&genre=H" class="Header__nav__link"> 
-                            Bas de pyjama
+                          <a href="ConsultProduct.php?nomSousCateg=Pyjamas%20short&genre=H" class="Header__nav__link"> 
+                            Pyjamas short
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs%20de%20pyjamas&genre=H" class="Header__nav__link"> 
-                            Packs de pyjamas
+                          <a href="ConsultProduct.php?nomSousCateg=Peignoirs&genre=H" class="Header__nav__link"> 
+                            Peignoirs
                           </a>
                         </li>
                       </ul>
@@ -166,8 +166,8 @@
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Charentaises&genre=H" class="Header__nav__link"> 
-                            Charentaises
+                          <a href="ConsultProduct.php?nomSousCateg=Baskets&genre=H" class="Header__nav__link"> 
+                            Baskets
                           </a>
                         </li>
                         <li class=""> 
@@ -176,13 +176,13 @@
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Espadrilles&genre=H" class="Header__nav__link"> 
-                            Espadrilles
+                          <a href="ConsultProduct.php?nomSousCateg=Mules/Tongs&genre=H" class="Header__nav__link"> 
+                            Mules/Tongs
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs%20de%20Chaussettes&genre=H" class="Header__nav__link"> 
-                            Packs de chaussettes
+                          <a href="ConsultProduct.php?nomSousCateg=Lots%20de%20Chaussettes&genre=H" class="Header__nav__link"> 
+                            Lots de chaussettes
                           </a>
                         </li>
                       </ul>
@@ -204,11 +204,6 @@
                         <li class=""> 
                           <a href="ConsultProduct.php?nomSousCateg=Boxers%20de%20bain&genre=H" class="Header__nav__link"> 
                             Boxers de bain
-                          </a>
-                        </li>
-                        <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Slips%20de%20bain&genre=H" class="Header__nav__link"> 
-                            Slips de bain
                           </a>
                         </li>
                       </ul>
@@ -237,13 +232,18 @@
                     <div class="Header__nav__submenu__categories">
                       <ul>
                         <li class=""> 
+                          <a href="ConsultProduct.php?nomSousCateg=Lots&genre=F" class="Header__nav__link"> 
+                            Lots
+                          </a>
+                        </li>
+                        <li class=""> 
                           <a href="ConsultProduct.php?nomSousCateg=Soutiens-gorge&genre=F" class="Header__nav__link"> 
                             Soutiens-gorge
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Culottes%20et%20bas&genre=" class="Header__nav__link"> 
-                            Culotte et bas
+                          <a href="ConsultProduct.php?nomSousCateg=Culottes&genre=F" class="Header__nav__link"> 
+                            Culottes
                           </a>
                         </li>
                         <li class=""> 
@@ -252,18 +252,8 @@
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Culotte%20menstruelle&genre=F" class="Header__nav__link"> 
-                            Culotte menstruelle
-                          </a>
-                        </li>
-                        <li class=""> 
                           <a href="ConsultProduct.php?nomSousCateg=Bodys&genre=F" class="Header__nav__link"> 
                             Bodys
-                          </a>
-                        </li>
-                        <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs&genre=F" class="Header__nav__link"> 
-                            Packs
                           </a>
                         </li>
                       </ul>
@@ -278,13 +268,8 @@
                     <div class="Header__nav__submenu__categories">
                       <ul>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Hauts%20de%20pyjamas&genre=F" class="Header__nav__link"> 
-                            Hauts de pyjama
-                          </a>
-                        </li>
-                        <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Bas%20de%20pyjamas&genre=F" class="Header__nav__link"> 
-                            Bas de pyjama
+                          <a href="ConsultProduct.php?nomSousCateg=Pyjamas&genre=F" class="Header__nav__link"> 
+                            Pyjamas
                           </a>
                         </li>
                         <li class=""> 
@@ -293,8 +278,13 @@
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs%20de%20pyjamas&genre=F" class="Header__nav__link"> 
-                            Packs de pyjamas
+                          <a href="ConsultProduct.php?nomSousCateg=Chemise%20de%20Nuits&genre=F" class="Header__nav__link"> 
+                            Chemise de Nuit
+                          </a>
+                        </li>
+                        <li class=""> 
+                          <a href="ConsultProduct.php?nomSousCateg=Peignoirs&genre=F" class="Header__nav__link"> 
+                            Peignoirs
                           </a>
                         </li>
                       </ul>
@@ -309,8 +299,13 @@
                     <div class="Header__nav__submenu__categories">
                       <ul>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=T-Shirts%20et%20chemises&genre=F" class="Header__nav__link"> 
-                            T-Shirts et chemises
+                          <a href="ConsultProduct.php?nomSousCateg=T-Shirts%20et%20chemisiers&genre=F" class="Header__nav__link"> 
+                            T-Shirts et chemisiers
+                          </a>
+                        </li>
+                        <li class=""> 
+                          <a href="ConsultProduct.php?nomSousCateg=Joggings,%20pantalons%20et%20shorts&genre=F" class="Header__nav__link"> 
+                            Joggings, pantalons et shorts
                           </a>
                         </li>
                         <li class=""> 
@@ -320,12 +315,7 @@
                         </li>
                         <li class=""> 
                           <a href="ConsultProduct.php?nomSousCateg=Sweats%20-%20Shirts&genre=F" class="Header__nav__link"> 
-                            Sweat-Shirts
-                          </a>
-                        </li>
-                        <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Joggings,%20pantalons%20et%20shorts&genre=F" class="Header__nav__link"> 
-                            Joggings, pantalons et shorts
+                            Sweat-shirts
                           </a>
                         </li>
                         <li class=""> 
@@ -345,13 +335,13 @@
                     <div class="Header__nav__submenu__categories">
                       <ul>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Charentaises&genre=F" class="Header__nav__link"> 
-                            Charentaises
+                          <a href="ConsultProduct.php?nomSousCateg=Chaussons&genre=F" class="Header__nav__link"> 
+                            Chaussons
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Chaussons&genre=F" class="Header__nav__link"> 
-                            Chaussons
+                          <a href="ConsultProduct.php?nomSousCateg=Baskets&genre=F" class="Header__nav__link"> 
+                            Baskets
                           </a>
                         </li>
                         <li class=""> 
@@ -360,18 +350,18 @@
                           </a>
                         </li>
                         <li class=""> 
+                          <a href="ConsultProduct.php?nomSousCateg=Mules/Tongs&genre=F" class="Header__nav__link"> 
+                            Mules/Tongs
+                          </a>
+                        </li>
+                        <li class=""> 
                           <a href="ConsultProduct.php?nomSousCateg=Collants&genre=F" class="Header__nav__link"> 
                             Collants
                           </a>
                         </li>
                         <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Espadrilles&genre=F" class="Header__nav__link"> 
-                            Espadrilles
-                          </a>
-                        </li>
-                        <li class=""> 
-                          <a href="ConsultProduct.php?nomSousCateg=Packs%20de%20Chaussettes&genre=F" class="Header__nav__link"> 
-                            Packs de chaussettes 
+                          <a href="ConsultProduct.php?nomSousCateg=Lots%20de%20Chaussettes&genre=F" class="Header__nav__link"> 
+                            Lots de chaussettes 
                           </a>
                         </li>
                       </ul>
@@ -411,7 +401,7 @@
     <div id="images">
       <a href="index.php"><img src="images/maison.png" alt="Accueil"></a>
       <a href="FormConnexion.php"><img src="images/compte.png" alt="Compte"></a>
-      <a href=""><img src="images/panier.png" alt="Panier"></a>
+      <a href="Panier.php"><img src="images/panier.png" alt="Panier"></a>
       <?php 
       if (isset($_SESSION['acces'])) {
         echo '<a href="Deconnexion.php" onClick ="actionDelete()"> <img src="images/deco.png"> </a>';
