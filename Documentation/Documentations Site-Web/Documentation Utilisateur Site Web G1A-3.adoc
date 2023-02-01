@@ -185,7 +185,7 @@ La page d'accueil met trois produits de *_La Parure Française_* en valeur. Ces 
 
 Les produits sont affichés avec leurs images respectives (_en couleur_ *_noir_*), le nom du produit, son prix, et son identifiant de produit.
 
-image::images/produits_acc.PNG[piedDePage]
+image::images/produits_acc.png[piedDePage]
 
 ==== Pied de page du site
 
